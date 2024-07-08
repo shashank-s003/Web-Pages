@@ -1,0 +1,170 @@
+* {
+    padding: 1vh;
+    margin: 1vh 0;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    background-color: blueviolet;
+    color: white;
+}
+
+.name {
+    font-size: xx-large;
+    position: absolute;
+    top: 6vh;
+    left: 2vw;
+    background-color: blueviolet;
+}
+
+header .tit {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2vw;
+}
+
+header .nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 1vw;
+    position: absolute;
+    right: 14vh;
+    float: right;
+    top: 2vw;
+    font-size: large;
+    background-color: blueviolet;
+}
+
+.nav li {
+    background-color: blueviolet;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+}
+
+.main {
+    display: flex;
+    color: white;
+}
+
+.left {
+    width: 50vw;
+    background-color: black;
+    display: inline-block;
+}
+
+@keyframes typing{
+    from{width: 0}
+    to{width: 100%}
+}
+.top{
+    /* margin: 0 auto; */
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid orange;
+    font-size: 1.6rem;
+    width: 0;
+    animation: typing 3.5s steps(40,end) forwards;
+}
+.left .bottom1 img {
+    width: 45vw;
+    padding: 1vh;
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+.left .bottom2 img {
+    width: 45vw;
+    padding: 1vh;
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -98.5vh;
+
+}
+
+.right {
+    font-size: larger;
+    width: 49vw;
+    background-color: black;
+    color: white;
+}
+
+.openhrs {
+    border: 4px solid blueviolet;
+    border-radius: 4px;
+    padding: 7vh;
+    margin: 1vh;
+}
+
+.specials {
+    border: 4px solid blueviolet;
+    border-radius: 4px;
+    padding: 7vh;
+    margin: 1vh;
+}
+
+.reservations {
+    border: 4px solid blueviolet;
+    border-radius: 4px;
+    padding: 7vh;
+    margin: 1vh;
+}
+
+.parking {
+    border: 4px solid blueviolet;
+    border-radius: 4px;
+    padding: 7vh;
+    margin: 1vh;
+}
+
+.online {
+    border: 4px solid blueviolet;
+    border-radius: 4px;
+    padding: 7vh;
+    margin: 1vh;
+}
+
+footer .div{
+    color: white;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.add{
+    display:flex ;
+    justify-content: center;
+}
+
+
+/* =============SCALING EFFECT============ */
+
+.specials:hover{
+    background-color: blueviolet;
+    transform: scale(1.02);
+}
+.openhrs:hover{
+    background-color: blueviolet;
+    transform: scale(1.02);
+}
+.reservations:hover{
+    background-color: blueviolet;
+    transform: scale(1.02);
+}
+.online:hover{
+    background-color: blueviolet;
+    transform: scale(1.02);
+}
+.parking:hover{
+    background-color: blueviolet;
+    transform: scale(1.02);
+}
